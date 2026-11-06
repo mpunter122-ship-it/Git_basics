@@ -15,7 +15,12 @@ vec_1 = np.array([1,2,3])
 vec_2 = np.array([4,5,6])
 
 vec_3 = vec_1 + vec_2
-exit()
 
-print(vec_3)
+def dotprod(x,y):
+    return np.dot(x.T, y)
+
+print(dotprod(vec_1,vec_2))
+
+
+
 
