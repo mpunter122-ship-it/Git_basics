@@ -30,3 +30,9 @@ def is_prime(n):
             
 print("7 is prime is a", is_prime(7), "statement")
 
+def times_table(base, num_steps):
+    for i in range(0, num_steps + 1):
+        print(base, " * ", i, " = ", str(base * i))
+
+for n in range(1, 3):
+    times_table(n, 12)
