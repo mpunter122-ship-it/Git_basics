@@ -22,5 +22,11 @@ def dotprod(x,y):
 print(dotprod(vec_1,vec_2))
 
 
-
+def is_prime(n): 
+    for i in range(2,n):
+        if n % i == 0:
+            return False
+    return True 
+            
+print("7 is prime is a", is_prime(7), "statement")
 
