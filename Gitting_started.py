@@ -36,3 +36,11 @@ def times_table(base, num_steps):
 
 for n in range(1, 3):
     times_table(n, 12)
+
+# For a regular n-sided polygon, the total interior angle
+# is (n - 2) * 180.
+def total_interior_angle(n):
+    return (n - 2) * 180
+
+print("Total interior angle is:")
+print(total_interior_angle(5))
